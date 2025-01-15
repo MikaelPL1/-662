@@ -30,4 +30,3 @@
 
 ### Käyttötapauksen nimi : Tee uusi äänestys
 #### Käyttäjät : Ylläpitäjä
-
