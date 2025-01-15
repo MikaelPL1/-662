@@ -1,3 +1,3 @@
 # Ohjelmiston toteutus UseCase-kaavion pohjalta
 
-# Selaa äänestyksiä
+### Selaa äänestyksiä
