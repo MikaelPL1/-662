@@ -15,4 +15,15 @@
 #### Esiehto : Äänestys pitää olla olemassa
 #### Jälkiehto : Käyttäjä näkee haluamansa äänestyksen tilanteen
 #### Käyttötapauksen kulku : 
-#####
+#####  Käyttäjä Valitsee äänestysksen, näkee tilanteen
+##### Poikkeuksellinen toiminta : Äänestystä ei ole olemassa
+
+
+### Käyttötapauksen nimi : Äänestä
+#### Käyttäjät : Käyttäjä
+#### Laukaisija : Käyttäjä valitsee äänestyksen mitä äänestää
+#### Esiehto : Äänestys pitää olla olemassa
+#### Jälkiehto : Äänestys laskee käyttäjän äänen äänestyksen tulokseen ja päivittää äänestystilanteen
+#### Käyttötapauksen kulku : 
+##### Käyttäjä Valitsee äänestysksen, Käyttäjä äänestää
+##### Poikkeuksellinen toiminta : Käyttäjä on äänestänyt / Äänestystä ei ole olemassa
