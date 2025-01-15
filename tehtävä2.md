@@ -6,8 +6,13 @@
 #### Esiehto : Äänestykset on/ovat olemassa
 #### Jälkiehto : Käyttäjä näkee äänestykset
 #### Käyttötapauksen kulku : 
-#### Käyttäjä menee äänestyssovellukseen / sivulle
-#### Poikkeuksellinen toiminta : Äänestyksiä ei ole olemassa.
+##### Käyttäjä menee äänestyssovellukseen / sivulle
+##### Poikkeuksellinen toiminta : Äänestyksiä ei ole olemassa
 
 ### Käyttötapauksen nimi : Katso äänestystilanne 
 #### Käyttäjät : Käyttäjä
+#### Laukaisija : Käyttäjä valitsee äänestyksen
+#### Esiehto : Äänestys pitää olla olemassa
+#### Jälkiehto : Käyttäjä näkee haluamansa äänestyksen tilanteen
+#### Käyttötapauksen kulku : 
+#####
