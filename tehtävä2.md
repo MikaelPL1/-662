@@ -27,3 +27,7 @@
 #### Käyttötapauksen kulku : 
 ##### Käyttäjä Valitsee äänestysksen, Käyttäjä äänestää
 ##### Poikkeuksellinen toiminta : Käyttäjä on äänestänyt / Äänestystä ei ole olemassa
+
+### Käyttötapauksen nimi : Tee uusi äänestys
+#### Käyttäjät : Ylläpitäjä
+
