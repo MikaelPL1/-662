@@ -37,4 +37,11 @@
 ##### Ylläpitäjä painaa tee äänestys nappia, Ylläpitäjä tekee haluamansalaisen äänestyksen, Ylläpitäjän tekemä äänestys näkyy äänestyksissä
 ##### Poikkeuksellinen toiminta : Ylläpitäjä ei kirjoita mitään äänestykseen "otsikkoa tai vaihtoehtoja".
 
-### Käyttötapauksen nimi : 
+### Käyttötapauksen nimi : Poista äänestyksiä
+#### Käyttäjät : Ylläpitäjä
+#### Laukaisija : Ylläpitäjä painaa tietyn äänestyksen poista nappia
+#### Esiehto : Poistettava äänestys on olemassa
+#### Jälkiehto : Poistettu äänestys poistetaan
+#### Käyttötapauksen kulku :
+##### Ylläpitäjä painaa tietyn äänestyksen poista nappia, Äänestys poistetaan
+##### Poikkeuksellinen toiminta : Äänestyksiä ei ole olemassa
