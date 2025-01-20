@@ -30,3 +30,11 @@
 
 ### Käyttötapauksen nimi : Tee uusi äänestys
 #### Käyttäjät : Ylläpitäjä
+#### Laukaisija : Ylläpitäjä painaa tee äänestys nappia
+#### Esiehto : Ylläpitäjällä pitää olla oikeudet ja käyttäjällä ei
+#### Jälkiehto : Ylläpitäjän tekemä äänestys näkyy äänestyksissä
+#### Käyttötapauksen kulku : 
+##### Ylläpitäjä painaa tee äänestys nappia, Ylläpitäjä tekee haluamansalaisen äänestyksen, Ylläpitäjän tekemä äänestys näkyy äänestyksissä
+##### Poikkeuksellinen toiminta : Ylläpitäjä ei kirjoita mitään äänestykseen "otsikkoa tai vaihtoehtoja".
+
+### Käyttötapauksen nimi : 
