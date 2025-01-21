@@ -1,7 +1,7 @@
 # Ohjelmiston toteutus UseCase-kaavion pohjalta
 
 ### Käyttötapauksen nimi : Selaa äänestyksiä
-#### Käyttäjät : Käyttäjä
+#### Käyttäjät : Käyttäjä, Ylläpitäjä
 #### Laukaisija : Käyttäjä menee äänestyssivulle selaamaan äänestyksiä
 #### Esiehto : Äänestykset on/ovat olemassa
 #### Jälkiehto : Käyttäjä näkee äänestykset
@@ -10,7 +10,7 @@
 ##### Poikkeuksellinen toiminta : Äänestyksiä ei ole olemassa
 
 ### Käyttötapauksen nimi : Katso äänestystilanne 
-#### Käyttäjät : Käyttäjä
+#### Käyttäjät : Käyttäjä, Ylläpitäjä
 #### Laukaisija : Käyttäjä valitsee äänestyksen
 #### Esiehto : Äänestys pitää olla olemassa
 #### Jälkiehto : Käyttäjä näkee haluamansa äänestyksen tilanteen
@@ -20,7 +20,7 @@
 
 
 ### Käyttötapauksen nimi : Äänestä
-#### Käyttäjät : Käyttäjä
+#### Käyttäjät : Käyttäjä, Ylläpitäjä
 #### Laukaisija : Käyttäjä valitsee äänestyksen mitä äänestää
 #### Esiehto : Äänestys pitää olla olemassa
 #### Jälkiehto : Äänestys laskee käyttäjän äänen äänestyksen tulokseen ja päivittää äänestystilanteen
