@@ -11,11 +11,11 @@
 
 ### Käyttötapauksen nimi : Katso äänestystilanne 
 #### Käyttäjät : Käyttäjä, Ylläpitäjä
-#### Laukaisija : Käyttäjä valitsee äänestyksen
+#### Laukaisija : Käyttäjä menee äänestyssivulle
 #### Esiehto : Äänestys pitää olla olemassa
-#### Jälkiehto : Käyttäjä näkee haluamansa äänestyksen tilanteen
+#### Jälkiehto : Käyttäjä äänestyksien tilanteen
 #### Käyttötapauksen kulku : 
-#####  Käyttäjä Valitsee äänestysksen, näkee tilanteen
+#####  Käyttäjä menee äänestyssivulle
 ##### Poikkeuksellinen toiminta : Äänestystä ei ole olemassa
 
 
@@ -26,20 +26,20 @@
 #### Jälkiehto : Äänestys laskee käyttäjän äänen äänestyksen tulokseen ja päivittää äänestystilanteen
 #### Käyttötapauksen kulku : 
 ##### Käyttäjä Valitsee äänestysksen, Käyttäjä äänestää
-##### Poikkeuksellinen toiminta : Käyttäjä on äänestänyt / Äänestystä ei ole olemassa
+##### Poikkeuksellinen toiminta : Äänestystä ei ole olemassa
 
 ### Käyttötapauksen nimi : Tee uusi äänestys
 #### Käyttäjät : Ylläpitäjä
-#### Laukaisija : Ylläpitäjä painaa tee äänestys nappia
+#### Laukaisija : Ylläpitäjä painaa "Luo äänestys" nappia
 #### Esiehto : Ylläpitäjällä pitää olla oikeudet ja käyttäjällä ei
 #### Jälkiehto : Ylläpitäjän tekemä äänestys näkyy äänestyksissä
 #### Käyttötapauksen kulku : 
-##### Ylläpitäjä painaa tee äänestys nappia, Ylläpitäjä tekee haluamansalaisen äänestyksen, Ylläpitäjän tekemä äänestys näkyy äänestyksissä
-##### Poikkeuksellinen toiminta : Ylläpitäjä ei kirjoita mitään äänestykseen "otsikkoa tai vaihtoehtoja".
+##### Ylläpitäjä painaa "Luo äänestys" nappia, Ylläpitäjä tekee haluamansalaisen äänestyksen, Ylläpitäjän tekemä äänestys näkyy äänestyksissä
+##### Poikkeuksellinen toiminta : Ylläpitäjä ei kirjoita mitään äänestykseen "kysymystä tai vaihtoehtoja".
 
 ### Käyttötapauksen nimi : Poista äänestyksiä
 #### Käyttäjät : Ylläpitäjä
-#### Laukaisija : Ylläpitäjä painaa tietyn äänestyksen poista nappia
+#### Laukaisija : Ylläpitäjä valitsee äänestyksen jonka haluaa poistaa
 #### Esiehto : Poistettava äänestys on olemassa
 #### Jälkiehto : Poistettu äänestys poistetaan
 #### Käyttötapauksen kulku :
