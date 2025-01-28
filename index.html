@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Äänestyssovellus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="titlemain">
+        <h1>Äänestyssovellus</h1>
+        <div class="maindiv">
+            <select id="ktbtn">
+                <option value="kt">Käyttäjä</option>
+                <option value="yl">Ylläpitäjä</option>
+            </select>
+            <button id="submitBtn">Luo äänestys</button>
+            <form id="aanestysform">
+                <label>Äänestyksen kysymys:</label>
+                <input class="inputt" id="input1">
+                <label>Vaihtoehto 1:</label>
+                <input class="inputt" id="input2">
+                <label>Vaihtoehto 2:</label>
+                <input class="inputt" id="input3">
+            </form>
+            <button id="deletebtn" class="pbtn" style="display: none;">Poista valitut</button>
+        </div>
+    </div>
+    
+    <div class="aanestykset">
+    
+        <div class="aanestys">
+            <label class="deletecheckbox" style="display: none;">
+                <input type="checkbox" class="delete-check">
+            </label>
+            <h3>Onko hyvä</h3>
+            <label class="vaihtoehto1">
+                <input id="option1" type="radio" name="vote" value="option1" class="rd">
+                <p id="ehto1">Joo</p>
+                <progress id="prog1" value="0" max="100"></progress>
+            </label>
+        
+            <label class="vaihtoehto2">
+                <input id="option2" type="radio" name="vote" value="option2" class="rd">
+                <p id="ehto2">Ei</p>
+                <progress id="prog2" value="0" max="100"></progress>
+            </label>
+        
+            <button class="vote-btn" id="votebtn">Äänestä</button>
+            <p class="abtn" id="aanet1">Äänet "Joo: 0" Äänet "Ei: 0"</p>
+        </div>
+    
+    </div>
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
